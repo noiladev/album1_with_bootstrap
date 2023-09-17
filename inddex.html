@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top album">
+        <div class="container-fluid">
+          <a class="navbar-brand album__title" href="#">Album</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <section class="container">
+        
+    </section>  
+    <div class="hero">
+        <p class="fs-1">Album example</p>
+        <p class="fs-4 p__2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, quae beatae? Quis commodi reiciendis deserunt rerum, maiores autem, iure sit quae tempora molestiae officia nesciunt dolorum quod vitae voluptates iste. Delectus?</p>
+    </div>
+    <div class="box__btn">
+        <button type="button" class="btn btn-primary  my__btn ">Main call to action</button>
+        <button type="button" class="btn btn-secondary my__btn ">Secondary action</button>
+
+    </div>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <img src="https://media.istockphoto.com/id/1442165858/photo/code-html-php-web-programming-source-code-abstract-code-background-programming-concept-3d.jpg?s=612x612&w=0&k=20&c=Kwv4hCCtwo2PfB5Z-enXD5F5_n6DFNUAbCcjf-_boKI=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium facere cum nisi  </p>
+            <span class="spn">
+                <p class="view">View</p>
+                <p class="edit">Edit</p>
+            </span>
+            </div>
+          </div>
+          <div class="card dev_img2" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1617042375876-a13e36732a04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae sit veritatis officiis, qui  </p>
+            <span class="spn">
+                <p class="view">View</p>
+                <p class="edit">Edit</p>
+            </span>
+            </div>
+          </div>
+          <div class="card dev_img3" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eveniet temporibus eum beatae!  </p>
+            <span class="spn">
+                <p class="view">View</p>
+                <p class="edit">Edit</p>
+            </span>
+            </div>
+          </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
